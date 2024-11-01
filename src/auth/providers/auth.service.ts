@@ -10,7 +10,6 @@ export class AuthService {
     // Injecting UserService
     @Inject(forwardRef(() => UsersService))
     private readonly usersService: UsersService,
-
     /**
      * Inject the signInProvider
      */
